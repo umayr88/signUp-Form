@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilo.css">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Newsletter sign-up form with success message</title>
+</head>
+<body>
+  
+  <div class="newsletter" id="newsletter">
+
+    <img class="newsletter__img-mobile" id="img-mobile" src="/assets/images/illustration-sign-up-mobile.svg">
+
+    <img src="/assets/images/icon-success.svg" class="img-success" id="img-success" alt="">
+
+    <img class="newsletter__img-desktop img-show" id="img-desktop" src="/assets/images/illustration-sign-up-desktop.svg">
+
+    <div class="newsletter-wrapper">
+
+      <h1 class="newsletter__title" id="title">Stay updated!</h1>
+
+      <div class="newsletter-text text" id="texts">
+
+        <p class="newsletter-text__p">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+
+        <ul class="newsletter-text__ul">
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+
+        <form action="#" class="newsletter-form" id="form">
+
+          <div class="form-label">
+            <label class="form-email email" for="email">Email address</label>
+            <label class="email" id="email-error" >Valid email required</label>
+          </div>
+          <input type="email" id="email" name="email" placeholder="email@company.com">
+  
+          <a class="btn" id="btn-form" href="#">Subscribe to monthly newsletter</a>
+          
+        </form>
+
+      </div>
+
+
+      <a class="btn" id="btn-dismiss" href="#">Dismiss message</a>
+
+      
+  </div>
+
+
+
+
+
+
+  
+  <script src="other.js"></script>
+</body>
+</html>
